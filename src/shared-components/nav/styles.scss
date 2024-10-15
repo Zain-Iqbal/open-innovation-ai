@@ -1,0 +1,34 @@
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  max-width: 980px;
+  margin: 0 auto;
+
+}
+
+.nav-left-container{
+  display: flex;
+  column-gap: 20px;
+}
+
+.nav-class {
+  background-color: #dcdcdc;
+  color: black;
+}
+
+.is-dark .nav-class {
+  background-color: black;
+  color: white;
+}
+
+.nav-btn {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 10px
+}
+
+
+
+

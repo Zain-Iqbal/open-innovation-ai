@@ -1,0 +1,15 @@
+.page-container {
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  background-color: white;
+  color: black;
+  padding-top: 64px;
+}
+
+.is-dark .page-container {
+  background-color: #252525;
+  color: white;
+}
+
+.fade {
+  color: #acacac;
+}

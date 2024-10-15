@@ -1,0 +1,158 @@
+.home-container {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 720px;
+
+  .bottom-home-section p {
+    font-size: 12px;
+    margin: 5px;
+  }
+
+  .bottom-home-section > i {
+    display: flex;
+    justify-content: flex-end;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+
+  .drop-down-type {
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .ticker-item {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .ticker-item:hover {
+    transform: scale(1.003);
+    background-color: #00000070;
+    cursor: pointer;
+
+  }
+
+  .ticker-item.selected {
+    transform: scale(1.003);
+    background-color: #00000070;
+    cursor: pointer;
+
+  }
+}
+
+.mt-1{
+  margin-top: 20px;
+}
+
+.header {
+  position: sticky;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  z-index: 10;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  i{
+    font-size: 18px;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+
+  .title {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+  }
+
+  .description {
+
+  }
+}
+
+.is-dark .header {
+  background-color: #252525;
+}
+
+.is-dark .MuiToggleButtonGroup-middleButton, .is-dark .MuiToggleButtonGroup-firstButton, .is-dark .MuiToggleButtonGroup-lastButton{
+border-color: white;
+}
+
+.is-dark .Mui-selected{
+  background-color: rgba(169, 167, 167, 0.24) !important;
+}
+
+.drop-down-type{
+  height: 35px;
+  font-size: 12px !important;
+
+}
+
+.is-dark .drop-down-type{
+color: white;
+
+border: 1px solid white;
+  svg {
+    fill: white;
+  }
+}
+.MuiPopover-paper.MuiMenu-paper.MuiMenu-paper{
+background-color: transparent;
+  ul{
+    padding: 0;
+    li{
+      padding-top: 10px;
+      font-size: 12px !important;
+    }
+    li.Mui-selected{
+      opacity: 0.5;
+    }
+  }
+}
+
+.dropdown-dark{
+  background-color: black !important;
+  color: white !important;
+
+}
+
+.page-section{
+  min-height: calc(100vh - 64px);
+  padding-bottom: 20px;
+border-bottom: 1px solid #dcdcdc;
+}
+
+.inner-empty-wrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  min-height: calc(80vh);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #acacac;
+  text-align: center;
+}
+
+
+.empty-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  min-height: calc(100vh - 64px);
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #acacac;
+  text-align: center;
+}
+

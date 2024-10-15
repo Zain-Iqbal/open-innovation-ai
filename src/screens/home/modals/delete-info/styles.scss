@@ -1,0 +1,32 @@
+.form-container-delete {
+  background-color: white;
+  width: 400px;
+  min-height: 150px;
+  border-radius: 5px;
+  padding: 20px;
+  position: relative;
+  .float-button {
+    position: absolute;
+    right: 1px;
+    top: -1px;
+  }
+
+  .form-button-section {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+
+    button {
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+  }
+}
+
+.is-dark .form-container-delete{
+  background-color: #252525;
+  color: white;
+
+}
